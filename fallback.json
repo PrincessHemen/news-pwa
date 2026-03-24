@@ -1,0 +1,10 @@
+{
+    "articles": [
+        {
+            "title": "Dog fails to fetch articles, fetches her puppies.",
+            "url": "",
+            "urlToImage": "./dog.jpg",
+            "description": "try loading the news page when you're online"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "workbox-sw": "^7.4.0"
+  }
+}
