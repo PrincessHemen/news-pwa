@@ -43,7 +43,7 @@ if (workbox) {
     new CacheFirst({
       cacheName: 'news-images',
       plugins: [
-        new ExpirationPlugin({  // ✅ Works now
+        new ExpirationPlugin({  // ✅ Add the expiration plugin
           maxEntries: 50,
           maxAgeSeconds: 7 * 24 * 60 * 60,
         }),
