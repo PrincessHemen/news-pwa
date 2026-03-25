@@ -2,7 +2,7 @@ export default async function handler(req, res) {
     const { source = 'the-washington-post' } = req.query;
   
     const response = await fetch(
-      `https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${process.env.NEWS_API_KEY}`
+      `https://newsapi.org/v2/top-headlines/sources?apiKey=${process.env.NEWS_API_KEY}`
     );
   
     const data = await response.json();
